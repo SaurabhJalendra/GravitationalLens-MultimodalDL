@@ -1,12 +1,12 @@
 # GravitationalLens-MultimodalDL
 
-## 📚 Project Overview
+##  Project Overview
 
 A PyTorch implementation of the DeepGraviLens architecture for multimodal classification of gravitational lensing data. This project fuses image data with light curve time series using CNNs and LSTMs to detect and classify different scales of gravitational lenses, enabling advances in astrophysical survey analysis and dark matter research.
 
 Gravitational lensing, a phenomenon predicted by Einstein's theory of general relativity, occurs when the gravitational field of a massive object bends the light from a distant source. This project leverages deep learning to automatically classify these phenomena based on both visual imaging data and light curve time series measurements.
 
-## 🔭 Scientific Background
+##  Scientific Background
 
 Gravitational lenses are crucial astronomical phenomena that help scientists:
 - Map dark matter distributions in the universe
@@ -16,7 +16,7 @@ Gravitational lenses are crucial astronomical phenomena that help scientists:
 
 The classification of gravitational lenses traditionally relies on visual inspection by experts, which becomes increasingly impractical with the growing volume of astronomical survey data. This project implements an automated approach that leverages both spatial (image) and temporal (light curve) information to improve classification accuracy.
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 The DeepGraviLens architecture consists of three main components:
 
@@ -41,7 +41,7 @@ The DeepGraviLens architecture consists of three main components:
 
 Total trainable parameters: 722,340
 
-## 📊 Dataset Description
+##  Dataset Description
 
 The dataset consists of:
 - **Image Data**: 4-channel images of size 45×45 pixels
@@ -54,7 +54,7 @@ The dataset consists of:
 
 The dataset is well-balanced with approximately 5,000 samples per class, split into training (~14,000 samples), validation (~3,000 samples), and testing (~3,000 samples) sets.
 
-## 🔧 Implementation Details
+##  Implementation Details
 
 ### Dependencies
 - PyTorch
@@ -73,7 +73,7 @@ The dataset is well-balanced with approximately 5,000 samples per class, split i
 - Batch size: 64
 - Training for up to 30 epochs with early stopping
 
-## 📈 Results
+##  Results
 
 The model achieves significant improvements over traditional single-modality approaches:
 - Higher accuracy in distinguishing between different scales of gravitational lenses
@@ -82,7 +82,7 @@ The model achieves significant improvements over traditional single-modality app
 
 The multimodal approach demonstrates the value of combining spatial and temporal information for astronomical classification tasks.
 
-## 🚀 Usage Instructions
+##  Usage Instructions
 
 ### Setup
 ```bash
@@ -102,12 +102,12 @@ jupyter notebook DL_assignment_2B_group-111.ipynb
 
 The notebook contains all the code for data preparation, model definition, training, and evaluation.
 
-## 👥 Contributors
+##  Contributors
 - Group 111 - Deep Learning Team
 
-## 📄 License
+##  License
 This project is provided for educational purposes only.
 
-## 🔗 References
+##  References
 - Gravitational lensing theory: https://en.wikipedia.org/wiki/Gravitational_lens
 - Original DeepGraviLens paper: "DeepGraviLens: a multi-modal architecture for classifying gravitational lensing data"
